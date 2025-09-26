@@ -42,7 +42,9 @@ The procedure is as follows (do *not* *do* this at first read. Just read it. Ple
 - Reload the webpage and confirm that the uploaded image has been installed.
 - Repeat steps above for the firmware images in the sequence.
 
-When done with the last firmware file, try pairing with the Nanoleaf app again. After having paired your controller to your regular wifi network, the controller will no longer present a wireless SSID and the web-server will no longer responed to 192.168.2.1. The webserver *is* reachable on whatever IP it has on your regular network, but I cannot know what that IP is.
+When done with the last firmware file, try pairing with the Nanoleaf app again. 
+
+After having paired your controller to your regular wifi network, the controller will no longer present a wireless SSID and the web-server will no longer be available on 192.168.2.1. The web-server *is* reachable on whatever IP it has on your regular network, but I cannot know what that IP is.
 
 ## 4. Identify your hardware
 Nanoleaf has multiple product lines:
