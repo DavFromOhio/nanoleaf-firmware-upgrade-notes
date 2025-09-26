@@ -97,7 +97,7 @@ Nanoleaf controllers appear to run a fork of OpenWRT with linux kernel 4.4.somet
 The GPL sourcecode does not appear available. I believe this is a GPL license violation.
 
 Some open source projects aiming to control nanoleaf products are:
-https://github.com/jimmyeao/esp8266-nanoleaf-webserver
-https://github.com/winleafs/Winleafs
+- https://github.com/jimmyeao/esp8266-nanoleaf-webserver
+- https://github.com/winleafs/Winleafs
 
 These projects are, to my knowledge, not in any way affiliated with Nanoleaf
