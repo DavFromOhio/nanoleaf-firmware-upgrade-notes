@@ -1,23 +1,21 @@
 # Nanoleaf controller firmware updates
 
 ## 1. First things first: 
-- Nanoleaf is a trademark of 
-- If your Nanoleaf app can pair with your Nanoleaf product, this document is quite possibly of no use to you.
-- I am not a Nanoleaf employee, associate, investor or in any other way associated with Nanoleaf. 
-- Technically, I do not even own Nanoleaf products. Family members do.
-- What *may* appear as technical advice in this document is merely a description of what *I* would do to bypass certain challenges which may occur when trying to use the current Nanoleaf Android app to connect to controllers with very old firmware. In short: pairing may not work. Maybe you get Error 009. Maybe you are at wits end. Maybe you are about to say foul things about ... products.
+Nanoleaf is a trademark of Nanoleaf Energy Technology ShenZhen Limited
+If your Nanoleaf app can pair with your Nanoleaf product, this document is quite possibly of no use to you.
+I (author of this text) am not a Nanoleaf employee, associate, investor or in any other way associated with Nanoleaf. Technically, I do not even own Nanoleaf products. Family members do.
+What *may* appear as technical advice in this document is merely a description of what *I* would do to bypass certain challenges which may occur when trying to use the current Nanoleaf Android app to connect to controllers with very old firmware. In short: pairing may not work. Maybe you get Error 009. Maybe you are at wits end. Maybe you are about to say foul things about ... products.
 
-I take no responsibility whatsoever for any breakage, nor loss of money, time, wits or marriage.
+**I take no responsibility whatsoever for any breakage, nor loss of money, time, wits or marriage.**
 
 
 ## 2. Understand the mechanism we will employ
-- A Nanoleaf controller (at least Elements) will, out of the box, behave as a disconnected wireless access point. That is, you can connect to it, but it does not provide access to the Internet.
-- The controller runs a tiny web-server we can talk to. This webserver provides a page to which we can upload a firmware image.
-- If your devices has been configured previously, you may have to execute a procedure to reset it to factory defaults. I don't know how. Figure it out.
-- In short: disregard the Nanoleaf app for a little while.
+A Nanoleaf controller (at least Elements) will, out of the box, behave as a disconnected wireless access point. That is, you can connect to it, but it does not provide access to the Internet. The controller runs a tiny web-server we can talk to. This webserver provides a page to which we can upload a firmware image. If your devices has been configured previously, you may have to execute a procedure to reset it to factory defaults. I don't know how. Figure it out.
+
+In short: disregard the Nanoleaf app for a little while.
 
 
-### 3. Procedure
+## 3. Procedure
 The procedure is as follows (do *not* *do* this at first read. Just read it. Please.)
 - Identify your hardware
 - Download **relevant** firmware files. Note "relevant" and the plural form "firmwares".
@@ -46,6 +44,7 @@ Nanoleaf has multiple product lines:
 - Canvas
 - ... and more.
 
+You should take care to know what product you own.
 There may be a label on your box or on the device itself. In addition, there may be a product *code*. Make a note of that as well.
 
 
