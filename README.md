@@ -66,14 +66,14 @@ Notes:
 - And finally, I did not bother to guess the correct URLs for all product lines.
 
 
-Firmware table
-
+Firmware table (not all firmware images in existence are listed). See the Nanoleaf Changelogs [2025](https://support.nanoleaf.me/hc/en-us/articles/35633948389268-Products-Firmware-Release-Notes-2025)   
+[2024](https://support.nanoleaf.me/hc/en-us/articles/33006784349076--2024-Archive-9-4-0-Firmware-Release-Notes-Panel-Products)  [older](https://support.nanoleaf.me/hc/en-us/articles/32800486435348--2023-Archive-9-3-4-or-Older-Firmware-Release-Notes-Panel-Products)  
 | Elements | Shapes | Canvas | Lines |
 |-----|------|------|------|
 | [12.3.2](http://nl52-firmware.s3.amazonaws.com/12.3.2.firmware) | [12.3.2](http://hexagon-firmware.s3.amazonaws.com/12.3.2.firmware) | [12.3.2](http://canvas-firmware.s3.amazonaws.com/12.3.2.firmware) | |
 | | [9.6.6](http://hexagon-firmware.s3.amazonaws.com/9.6.6.firmware) | | |
 | | | [9.6.4](http://canvas-firmware.s3.amazonaws.com/9.6.4.firmware) | |
-| [9.3.4](http://nl52-firmware.s3.amazonaws.com/9.3.4.firmware) | | [12.3.2](http://nl52-firmware.s3.amazonaws.com/9.3.4.firmware) | |
+| [9.3.4](http://nl52-firmware.s3.amazonaws.com/9.3.4.firmware) | | [9.3.4](http://nl52-firmware.s3.amazonaws.com/9.3.4.firmware) | |
 | [8.5.2](http://nl52-firmware.s3.amazonaws.com/8.5.2.firmware) | [8.5.2](http://hexagon-firmware.s3.amazonaws.com/8.5.2.firmware) | | |
 | [7.1.6](http://nl52-firmware.s3.amazonaws.com/7.1.6.firmware) | [7.1.6](http://hexagon-firmware.s3.amazonaws.com/7.1.6.firmware) | [7.1.6](http://canvas-firmware.s3.amazonaws.com/7.1.6.firmware) | |
 | [6.5.1](http://nl52-firmware.s3.amazonaws.com/6.5.1.firmware) | [6.5.1](http://hexagon-firmware.s3.amazonaws.com/6.5.1.firmware) | [6.5.1](http://canvas-firmware.s3.amazonaws.com/6.5.1.firmware) | |
