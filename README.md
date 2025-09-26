@@ -90,7 +90,7 @@ Firmware table
 
 | Elements | Shapes | Canvas | Lines |
 |-----|------|------|------|
-| [12.3.2](http://nl52-firmware.s3.amazonaws.com/12.3.2.firmware) | [12.3.2](http://hexagon-firmware.s3.amazonaws.com/12.3.2.firmware) | [12.3.2](http://canvas-firmware.s3.amazonaws.com/12.3.2.firmware) | |
+| [12.3.2](http://nl52-firmware.s3.amazonaws.com/12.3.2.firmware) | [12.3.2](http://hexagon-firmware.s3.amazonaws.com/12.3.2.firmware) | [12.3.2](http://canvas-firmware.s3.amazonaws.com/12.3.2.firmware) | [12.3.2](http://nl59-firmware.s3.amazonaws.com/12.3.2.firmware) |
 | | [9.6.6](http://hexagon-firmware.s3.amazonaws.com/9.6.6.firmware) | | |
 | | | [9.6.4](http://canvas-firmware.s3.amazonaws.com/9.6.4.firmware) | |
 | [9.3.4](http://nl52-firmware.s3.amazonaws.com/9.3.4.firmware) | | | |
