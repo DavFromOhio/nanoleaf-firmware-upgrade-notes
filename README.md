@@ -15,7 +15,7 @@ What *may* appear as technical advice in this document is merely a description o
 
 
 ## 2. Understand the mechanism we will employ
-A Nanoleaf controller (at least Elements) will, out of the box, behave as a disconnected wireless access point. That is, you can connect to it, but it does not provide access to the Internet. The controller runs a tiny web-server we can talk to. This webserver provides a page to which we can upload a firmware image. 
+A Nanoleaf controller (at least Elements) will, out of the box, behave as a disconnected wireless access point. That is, you can connect to it, but it does not provide access to the Internet. The controller runs a tiny web-server we can talk to with a regular web-browser. This webserver provides a page to which we can upload a firmware image. 
 
 If your device has been configured previously, you may have to execute a procedure to reset it to factory defaults. I don't know how. Figure it out.
 
