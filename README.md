@@ -25,7 +25,7 @@ In short: disregard the Nanoleaf app for a little while.
 ## 3. Procedure
 The procedure is as follows (do *not* *do* this at first read. Just read it. Please.)
 - Identify your hardware
-- Download **relevant** firmware files. Note "relevant" and the plural form "firmwares".
+- Download **relevant** firmware files. Note "relevant" and the plural form "files".
 - Connect the controller to a panel/light
 - Connect the power brick to the panel, plug the powerbrick into the wall socket, power up the device. Give it a minute. 
 - Find the access point SSID broadcast by the controller in the wireless settings of a PC, MAC, Android or IOS phone. Typically named `Elements ABCD` for an elements controller.
