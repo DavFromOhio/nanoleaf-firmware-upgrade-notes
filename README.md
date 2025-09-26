@@ -23,7 +23,7 @@ The procedure is as follows (do *not* *do* this at first read. Just read it. Ple
 - Download **relevant** firmware files. Note "relevant" and the plural form "firmwares".
 - Connect the controller to a panel/light
 - Connect the power brick to the panel, plug the powerbrick into the wall socket, power up the device. Give it a minute. 
-- Find the access point SSID broadcasted by the controller in the wireless settings of a PC, MAC, Android or IOS phone. Typically named `Elements ABCD` for an elements controller.
+- Find the access point SSID broadcast by the controller in the wireless settings of a PC, MAC, Android or IOS phone. Typically named `Elements ABCD` for an elements controller.
 - Connect to this SSID with your PC, MAC, whatever.
 - From the web-browser of your wireless client (PC, MAC, whatever), access the address [http://192.168.2.1/](http://192.168.2.1/). Note *http*, not *https*. You should get a simple web-page identifying your current firmware version and some other details. And two buttons, 'Browse...' and 'Upload File'.
 - Choose the first firmware in the list below having a version *after* the one you have by hitting the 'Browse...' button
