@@ -38,7 +38,7 @@ The procedure is as follows (do *not* *do* this at first read. Just read it. Ple
 - Wait a couple of minutes. You should get a confirmation that the upload was successful. (*I* got a message about wrong file being uploaded when I tried exactly that. I offer no warranties that this works for all combinations of hardware and firmware. Make sure you upload the correct files.)
 - Do not touch the controller.
 - The controller will reboot with no further action on your part. Wait for the SSID to reappear in your list of possible wifi networks again. This takes additional minutes. Be patient.
-- Connect to the SSID again.
+- Connect to the controller SSID again.
 - Reload the webpage and confirm that the uploaded image has been installed.
 - Repeat steps above for the firmware images in the sequence.
 
