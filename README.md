@@ -77,6 +77,8 @@ See the Nanoleaf Release Notes:
 
 I did not spend any energy guessing the URL for 'Lines' or other products. Feel free to let me know when you figure it out.
 
+Your browser may complain about the links below being served via http (and not https). Figure it out.
+
 | Elements | Shapes | Canvas | Lines |
 |-----|------|------|------|
 | [12.3.2](http://nl52-firmware.s3.amazonaws.com/12.3.2.firmware) | [12.3.2](http://hexagon-firmware.s3.amazonaws.com/12.3.2.firmware) | [12.3.2](http://canvas-firmware.s3.amazonaws.com/12.3.2.firmware) | |
