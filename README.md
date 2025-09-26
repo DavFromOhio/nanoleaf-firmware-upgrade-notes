@@ -69,7 +69,9 @@ Notes:
 Firmware table (not all firmware images in existence are listed). 
 See the Nanoleaf Changelogs:
 [2025](https://support.nanoleaf.me/hc/en-us/articles/35633948389268-Products-Firmware-Release-Notes-2025)
+
 [2024](https://support.nanoleaf.me/hc/en-us/articles/33006784349076--2024-Archive-9-4-0-Firmware-Release-Notes-Panel-Products)
+
 [older](https://support.nanoleaf.me/hc/en-us/articles/32800486435348--2023-Archive-9-3-4-or-Older-Firmware-Release-Notes-Panel-Products)  
 
 I did not spend any energy guessing the URL for 'Lines' or other products. Feel free to let me know when you figure it out.
@@ -86,7 +88,7 @@ I did not spend any energy guessing the URL for 'Lines' or other products. Feel 
 
 
 
-## 7. Technical details
+## 6. Some very limited technical details
 Nanoleaf controllers appear to run a fork of OpenWRT with linux kernel 4.4.something on a fairly old MIPS microcontroller.
 
 The GPL sourcecode does not appear available. I believe this is a GPL license violation.
