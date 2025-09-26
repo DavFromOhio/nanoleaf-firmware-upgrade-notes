@@ -97,7 +97,7 @@ Firmware table
 
 
 ## 6. Some very limited technical details
-Nanoleaf controllers appear to run a fork of OpenWRT with linux kernel 4.4.something on a fairly old MIPS microcontroller.
+Nanoleaf controllers appear to run a fork of OpenWRT with linux kernel 4.4.something on a fairly old MIPS microcontroller. [This](https://vocore.io/) appears to be related hardware.
 
 The GPL sourcecode does not appear available. I believe this is a GPL license violation.
 
@@ -106,3 +106,7 @@ Some open source projects aiming to control nanoleaf products are:
 - https://github.com/winleafs/Winleafs
 
 These projects are, to my knowledge, not in any way affiliated with Nanoleaf
+
+
+## 7. Final notes
+Hey Nanoleaf, I'll take compensation in Amazon gift cards if you feel like saying thanks for doing what you didn't.
