@@ -38,6 +38,7 @@ The procedure is as follows (do *not* *do* this at first read. Just read it. Ple
 - Reload the webpage and confirm that the uploaded image has been installed.
 - Repeat steps above for the firmware images in the sequence.
 
+When done with the last firmware file, try pairing with the Nanoleaf app again.
 
 ## 4. Identify your hardware
 Nanoleaf has multiple product lines:
@@ -67,9 +68,9 @@ Notes:
 - And finally, I did not bother to guess the correct URLs for all product lines.
 
 
-Not all firmware images in existence are listed in the table below. 
+Not all firmware images in existence are listed in the table below. I do not know when breaking changes occured or what versions can be skipped. The versions listed for `Elements` below worked for me.
 
-See the Nanoleaf Release Notes:
+See the Nanoleaf Release Notes to see a list of firmware versions for your hardware:
 
 [2025](https://support.nanoleaf.me/hc/en-us/articles/35633948389268-Products-Firmware-Release-Notes-2025)
 
