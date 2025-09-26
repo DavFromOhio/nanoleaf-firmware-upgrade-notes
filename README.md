@@ -77,7 +77,7 @@ I did not spend any energy guessing the URL for 'Lines' or other products. Feel 
 | [12.3.2](http://nl52-firmware.s3.amazonaws.com/12.3.2.firmware) | [12.3.2](http://hexagon-firmware.s3.amazonaws.com/12.3.2.firmware) | [12.3.2](http://canvas-firmware.s3.amazonaws.com/12.3.2.firmware) | |
 | | [9.6.6](http://hexagon-firmware.s3.amazonaws.com/9.6.6.firmware) | | |
 | | | [9.6.4](http://canvas-firmware.s3.amazonaws.com/9.6.4.firmware) | |
-| [9.3.4](http://nl52-firmware.s3.amazonaws.com/9.3.4.firmware) | | [9.3.4](http://nl52-firmware.s3.amazonaws.com/9.3.4.firmware) | |
+| [9.3.4](http://nl52-firmware.s3.amazonaws.com/9.3.4.firmware) | | | |
 | [8.5.2](http://nl52-firmware.s3.amazonaws.com/8.5.2.firmware) | [8.5.2](http://hexagon-firmware.s3.amazonaws.com/8.5.2.firmware) | | |
 | [7.1.6](http://nl52-firmware.s3.amazonaws.com/7.1.6.firmware) | [7.1.6](http://hexagon-firmware.s3.amazonaws.com/7.1.6.firmware) | [7.1.6](http://canvas-firmware.s3.amazonaws.com/7.1.6.firmware) | |
 | [6.5.1](http://nl52-firmware.s3.amazonaws.com/6.5.1.firmware) | [6.5.1](http://hexagon-firmware.s3.amazonaws.com/6.5.1.firmware) | [6.5.1](http://canvas-firmware.s3.amazonaws.com/6.5.1.firmware) | |
