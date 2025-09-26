@@ -15,7 +15,7 @@ What *may* appear as technical advice in this document is merely a description o
 
 
 ## 2. Understand the mechanism we will employ
-A Nanoleaf controller (at least Elements) will, out of the box, behave as a disconnected wireless access point. That is, you can connect to it, but it does not provide access to the Internet. The controller runs a tiny web-server we can talk to with a regular web-browser. This webserver provides a page to which we can upload a firmware image. 
+A Nanoleaf controller (at least Elements) will, out of the box, behave as a disconnected wireless access point. That is, you can connect to it, but it does not provide access to the Internet. The controller runs a tiny web-server we can talk to with a regular web-browser. This web-server provides a page to which we can upload a firmware image. 
 
 If your device has been configured previously, you may have to execute a procedure to reset it to factory defaults. I don't know how. Figure it out.
 
@@ -42,7 +42,7 @@ The procedure is as follows (do *not* *do* this at first read. Just read it. Ple
 - Reload the webpage and confirm that the uploaded image has been installed.
 - Repeat steps above for the firmware images in the sequence.
 
-When done with the last firmware file, try pairing with the Nanoleaf app again.
+When done with the last firmware file, try pairing with the Nanoleaf app again. After having paired your controller to your regular wifi network, the controller will no longer present a wireless SSID and the web-server will no longer responed to 192.168.2.1. The webserver *is* reachable on whatever IP it has on your regular network, but I cannot know what that IP is.
 
 ## 4. Identify your hardware
 Nanoleaf has multiple product lines:
