@@ -67,7 +67,7 @@ Notes:
 
 
 Firmware table (not all firmware images in existence are listed). 
-See the Nanoleaf Changelogs:
+See the Nanoleaf Release Notes:
 
 [2025](https://support.nanoleaf.me/hc/en-us/articles/35633948389268-Products-Firmware-Release-Notes-2025)
 
