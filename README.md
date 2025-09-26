@@ -82,7 +82,7 @@ See the Nanoleaf Release Notes to see a list of firmware versions for your hardw
 
 [older](https://support.nanoleaf.me/hc/en-us/articles/32800486435348--2023-Archive-9-3-4-or-Older-Firmware-Release-Notes-Panel-Products)  
 
-I did not spend any energy guessing the URL for 'Lines' or other products. Feel free to let me know when you figure it out.
+I did not spend any energy guessing the URL for ~~'Lines' or~~ other products. Feel free to let me know when you figure it out.
 
 Your browser may complain about the links below being served via http (and not https). Figure it out.
 
