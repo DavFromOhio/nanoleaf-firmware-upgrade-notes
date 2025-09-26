@@ -26,8 +26,8 @@ The procedure is as follows (do *not* *do* this at first read. Just read it. Ple
 - Find the access point SSID broadcast by the controller in the wireless settings of a PC, MAC, Android or IOS phone. Typically named `Elements ABCD` for an elements controller.
 - Connect to this SSID with your PC, MAC, whatever.
 - From the web-browser of your wireless client (PC, MAC, whatever), access the address [http://192.168.2.1/](http://192.168.2.1/). Note *http*, not *https*. You should get a simple web-page identifying your current firmware version and some other details. And two buttons, 'Browse...' and 'Upload File'.
-- Choose the first firmware in the list below having a version *after* the one currently running on your controller by hitting the 'Browse...' button
-- Press and hold the controller button until the LEDs start flashing/running. Then release.
+- Choose the first firmware in the list below having a version *after* the one currently running on your controller by hitting the 'Browse...' button. Select exactly one firmware file. We will repeat the procedure from this step, one version at a time, until you are at the latest release.
+- Press and hold the controller button until the LEDs start flashing/running. Then release the button.
 - Hit the 'Upload File' button in the device web-page within 30 seconds of the lights starting to move.
 - There is no progress bar. If you are technically inclined, you know what to do. Otherwise, just wait.
 - Wait a couple of minutes. You should get a confirmation that the upload was successful. (*I* got a message about wrong file being uploaded when I tried exactly that. I offer no warranties that this works for all combinations of hardware and firmware. Make sure you upload the correct files.)
@@ -35,7 +35,7 @@ The procedure is as follows (do *not* *do* this at first read. Just read it. Ple
 - The controller will reboot with no further action on your part. Wait for the SSID to reappear in your list of possible wifi networks again. This takes additional minutes. Be patient.
 - Connect to the SSID again.
 - Reload the webpage and confirm that the uploaded image has been installed.
-- Repeat steps for more recent firmware images.
+- Repeat steps above for the firmware images in the sequence.
 
 
 ## 4. Identify your hardware
