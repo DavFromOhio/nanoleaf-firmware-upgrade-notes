@@ -66,7 +66,8 @@ Notes:
 - And finally, I did not bother to guess the correct URLs for all product lines.
 
 
-Firmware table (not all firmware images in existence are listed). 
+Not all firmware images in existence are listed in the table below. 
+
 See the Nanoleaf Release Notes:
 
 [2025](https://support.nanoleaf.me/hc/en-us/articles/35633948389268-Products-Firmware-Release-Notes-2025)
@@ -78,6 +79,8 @@ See the Nanoleaf Release Notes:
 I did not spend any energy guessing the URL for 'Lines' or other products. Feel free to let me know when you figure it out.
 
 Your browser may complain about the links below being served via http (and not https). Figure it out.
+
+Firmware table
 
 | Elements | Shapes | Canvas | Lines |
 |-----|------|------|------|
