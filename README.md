@@ -1,7 +1,7 @@
 # Nanoleaf controller firmware updates
 
 ## 1. First things first: 
-- Nanoleaf is a trademark of.....
+- Nanoleaf is a trademark of 
 - If your Nanoleaf app can pair with your Nanoleaf product, this document is quite possibly of no use to you.
 - I am not a Nanoleaf employee, associate, investor or in any other way associated with Nanoleaf. 
 - Technically, I do not even own Nanoleaf products. Family members do.
@@ -65,13 +65,31 @@ Notes:
 - And finally, I did not bother to guess the correct URLs for all product lines.
 
 
-## 6. Firmware table
+Firmware table
+
+| Elements | Shapes | Canvas | Lines |
+|-----|------|------|------|
+| [12.3.2](http://nl52-firmware.s3.amazonaws.com/12.3.2.firmware) | [12.3.2](http://hexagon-firmware.s3.amazonaws.com/12.3.2.firmware) | [12.3.2](http://canvas-firmware.s3.amazonaws.com/12.3.2.firmware) | |
+|-----|------|------|------|
+| | [9.6.6](http://hexagon-firmware.s3.amazonaws.com/9.6.6.firmware) | | |
+|-----|------|------|------|
+| | | [9.6.4](http://canvas-firmware.s3.amazonaws.com/9.6.4.firmware) | |
+|-----|------|------|------|
+| [9.3.4](http://nl52-firmware.s3.amazonaws.com/9.3.4.firmware) | | [12.3.2](http://nl52-firmware.s3.amazonaws.com/9.3.4.firmware) | |
+|-----|------|------|------|
+| [8.5.2](http://nl52-firmware.s3.amazonaws.com/8.5.2.firmware) | [8.5.2](http://hexagon-firmware.s3.amazonaws.com/8.5.2.firmware) | | |
+|-----|------|------|------|
+| [7.1.6](http://nl52-firmware.s3.amazonaws.com/7.1.6.firmware) | [7.1.6](http://hexagon-firmware.s3.amazonaws.com/7.1.6.firmware) | [7.1.6](http://canvas-firmware.s3.amazonaws.com/7.1.6.firmware) | |
+|-----|------|------|------|
+| [6.5.1](http://nl52-firmware.s3.amazonaws.com/6.5.1.firmware) | [6.5.1](http://hexagon-firmware.s3.amazonaws.com/6.5.1.firmware) | [6.5.1](http://canvas-firmware.s3.amazonaws.com/6.5.1.firmware) | |
+|-----|------|------|------|
+
 
 
 ## 7. Technical details
 Nanoleaf controllers appear to run a fork of OpenWRT with linux kernel 4.4.something on a fairly old MIPS microcontroller.
 
-The GPL sourcecode does not appear available. I think this is a GPL license violation.
+The GPL sourcecode does not appear available. I believe this is a GPL license violation.
 
 Some open source projects aiming to control nanoleaf products are:
 https://github.com/jimmyeao/esp8266-nanoleaf-webserver
