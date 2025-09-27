@@ -17,7 +17,7 @@ Nanoleaf is a trademark of Nanoleaf Energy Technology ShenZhen Limited.
 ## 2. Understand the mechanism we will employ
 A Nanoleaf controller (at least Elements) will, out of the box, behave as a disconnected wireless access point. That is, you can connect to it, but it does not provide access to the Internet. The controller runs a tiny web-server we can talk to with a regular web-browser. This web-server provides a page to which we can upload a firmware image. 
 
-If your device has been configured previously, you may have to execute a procedure to reset it to factory defaults. I don't know how. Figure it out.
+If your device has been configured previously, you may have to execute a procedure to reset it to factory defaults. See 
 
 In short: disregard the Nanoleaf app for a little while.
 
@@ -113,6 +113,10 @@ Some open source projects aiming to control nanoleaf products are:
 
 These projects are, to my knowledge, not in any way affiliated with Nanoleaf
 
+## 7. Factory reset
 
-## 7. Final notes
+To factory reset a Nanoleaf light panels controller, unplug it, then hold down the Power and Brighten buttons simultaneously while plugging the controller back into power. Continue holding the buttons for about 10-15 seconds until the Status LED starts to flash rapidly. Release the buttons, and once the Power button LED is steady, the device is reset. (Taken verbatim from some AI.)
+
+
+## 8. Final notes
 Hey Nanoleaf, I'll take compensation in Amazon gift cards if you feel like saying thanks for doing what you didn't.
