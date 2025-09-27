@@ -65,9 +65,9 @@ Notes:
 - Firmware images of the same revision are named identically across product lines, but are not identical.
  In other words: there is a "7.1.6.firmware"-file for each product line that firmware version was released for. The files are not interchangeable between product lines.
 
-- If your current running image is very old, you will likely have to upgrade in multiple steps. Cannot go straight from 5.3.2 to 12.3.2, for instance.
+- If your currently running image is very old, you will likely have to upgrade in multiple steps. Cannot go straight from 5.3.2 to 12.3.2, for instance. My replacement controller, which I bought in 2025, came with a 4 and half year old firmware image.
 
-- I do not know if these images are compatible with your exact hardware revision.
+- I do not know if these images are compatible with your exact hardware revision. Or how many hardware revisions there are.
 
 - The URLs for these firmware images are not under my control. I can only assume this is how Nanoleaf distributes their firmware images. 
 
