@@ -1,17 +1,17 @@
 # Nanoleaf controller firmware updates
 
 ## 1. First things first: 
-Nanoleaf is a trademark of Nanoleaf Energy Technology ShenZhen Limited.
-
-If your Nanoleaf app can pair with your Nanoleaf product, this document is quite possibly of no use to you.
+If your Nanoleaf app can pair with your Nanoleaf product, this document is *possibly* of no use to you.
 
 If you cannot, however, you have a challenge. Because the problem *can* be that your controller doesn't trust your app. Or the other way around. I don't know. Either way, it does not work. And because you cannot pair the controller and the app, you cannot update the controller firmware *from* the app. At least as far as I understand it. This document suggests a workaround for this particular problem.
-
-I (author of this text) am not a Nanoleaf employee, associate, investor or in any other way associated with Nanoleaf. Technically, I do not even own Nanoleaf products. Family members do.
 
 What *may* appear as technical advice in this document is merely a description of what *I* would do to bypass certain challenges which may occur when trying to use the current Nanoleaf Android app to connect to controllers with very old firmware. In short: pairing may not work. Maybe you get Error 009. Maybe you are at wits end. Maybe you are about to say foul things about ... products.
 
 **I take no responsibility whatsoever for any breakage, nor loss of money, time, wits or marriage.**
+
+I (author of this text) am not a Nanoleaf employee, associate, investor or in any other way associated with Nanoleaf. Technically, I do not even own Nanoleaf products. Family members do.
+
+Nanoleaf is a trademark of Nanoleaf Energy Technology ShenZhen Limited.
 
 
 ## 2. Understand the mechanism we will employ
