@@ -116,7 +116,8 @@ To factory reset a Nanoleaf light panels controller, unplug it, then hold down t
 
 ## 8. Power considerations
 
-This is Work In Progress
+This is Work In Progress.
+
 If you make "inexplicable" observations about your Nanoleaf kit, it can be worth validating your hardware setup. One thing to check is that you don't overload your power supply, and that the power supply supplies the correct voltage. There is a label on the original power supply stating the expected voltage.
 Each standard 42W PSU supports up to 22 Hexagons (2W per panel), 28 Triangles (1.5W per panel) or 77 Mini Triangles (0.54W per panel). Each Controller supports up to 500 panels. Adjust Your Power Supplies for Optimal Performance. 
 
