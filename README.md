@@ -65,18 +65,15 @@ Notes:
 - Firmware images of the same revision are named identically across product lines, but are not identical.
  In other words: there is a "7.1.6.firmware"-file for each product line that firmware version was released for. The files are not interchangeable between product lines.
 
-- If your currently running image is very old, you will likely have to upgrade in multiple steps. Cannot go straight from 5.3.2 to 12.3.2, for instance. My replacement controller, which I bought in 2025, came with a 4 and half year old firmware image.
+- If your currently running image is very old, you will likely have to upgrade in multiple steps. Cannot go straight from 5.3.2 to 12.3.2, for instance. I do not know when breaking changes occured or what versions can be skipped. The versions listed for `Elements` below worked for me. (My replacement controller, which I bought in 2025, came with a 4 and half year old firmware image. )
 
 - I do not know if these images are compatible with your exact hardware revision. Or how many hardware revisions there are.
 
 - The URLs for these firmware images are not under my control. I can only assume this is how Nanoleaf distributes their firmware images. 
 
+- Not all firmware images in existence are listed in the table below. See the Nanoleaf Release Notes to see a list of firmware versions for your hardware.
+
 - And finally, I did not bother to guess the correct URLs for all product lines.
-
-
-Not all firmware images in existence are listed in the table below. I do not know when breaking changes occured or what versions can be skipped. The versions listed for `Elements` below worked for me.
-
-See the Nanoleaf Release Notes to see a list of firmware versions for your hardware:
 
 [2025](https://support.nanoleaf.me/hc/en-us/articles/35633948389268-Products-Firmware-Release-Notes-2025)
 
@@ -84,7 +81,7 @@ See the Nanoleaf Release Notes to see a list of firmware versions for your hardw
 
 [older](https://support.nanoleaf.me/hc/en-us/articles/32800486435348--2023-Archive-9-3-4-or-Older-Firmware-Release-Notes-Panel-Products)  
 
-I did not spend any energy guessing the URL for ~~'Lines' or~~ other products. Feel free to let me know when you figure it out.
+Feel free to let me know if you figure it out the firmware URLs for other products.
 
 Your browser may complain about the links below being served via http (and not https). Figure it out.
 
