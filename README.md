@@ -114,6 +114,11 @@ These projects are, to my knowledge, not in any way affiliated with Nanoleaf
 
 To factory reset a Nanoleaf light panels controller, unplug it, then hold down the Power and Brighten buttons simultaneously while plugging the controller back into power. Continue holding the buttons for about 10-15 seconds until the Status LED starts to flash rapidly. Release the buttons, and once the Power button LED is steady, the device is reset. (Taken verbatim from some AI.)
 
+## 8. Power considerations
 
-## 8. Final notes
+This is Work In Progress
+If you make "inexplicable" observations about your Nanoleaf kit, it can be worth validating your hardware setup. One thing to check is that you don't overload your power supply, and that the power supply supplies the correct voltage. There is a label on the original power supply stating the expected voltage.
+Each standard 42W PSU supports up to 22 Hexagons (2W per panel), 28 Triangles (1.5W per panel) or 77 Mini Triangles (0.54W per panel). Each Controller supports up to 500 panels. Adjust Your Power Supplies for Optimal Performance. 
+
+## 9. Final notes
 Hey Nanoleaf, I'll take compensation in Amazon gift cards if you feel like saying thanks for doing what you didn't.
